@@ -1,0 +1,11 @@
+.students-list {
+    /* height: 900px; */
+    width: 100%;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* margin-right: 30px;
+    margin-left: 30px; */
+}

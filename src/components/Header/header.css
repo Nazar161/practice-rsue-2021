@@ -1,0 +1,21 @@
+.header {
+    width: 100%;
+    /* position: static; */
+    /* z-index: 50; */
+    background-color:  rgba(41, 103, 173, 1);
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+
+.header span { 
+    color: white;
+    font-size: 35px;
+}
+
+.header img {
+    width: 80px;
+    height: 90%
+}

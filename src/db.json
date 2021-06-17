@@ -1,0 +1,178 @@
+{
+    "list": [
+        {
+            "id": "1",
+            "name": "Ivan",
+            "photo": "http://c.files.bbci.co.uk/66CC/production/_116361362_tes1.png",
+            "activity": "science",
+            "rating": "12"
+        },
+        {
+            "id": "2",
+            "name": "Ivan",
+            "photo": "http://c.files.bbci.co.uk/66CC/production/_116361362_tes1.png",
+            "activity": "science",
+            "rating": "12"
+        },
+        {
+            "id": "3",
+            "name": "Ivan",
+            "photo": "http://c.files.bbci.co.uk/66CC/production/_116361362_tes1.png",
+            "activity": "science",
+            "rating": "12"
+        },
+        {
+            "id": "4",
+            "name": "Ivan",
+            "photo": "http://c.files.bbci.co.uk/66CC/production/_116361362_tes1.png",
+            "activity": "science",
+            "rating": "12"
+        },
+        {
+            "id": "5",
+            "name": "Ivan",
+            "photo": "http://c.files.bbci.co.uk/66CC/production/_116361362_tes1.png",
+            "activity": "science",
+            "rating": "12"
+        },
+        {
+            "id": "6",
+            "name": "Yura",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Bill_Gates_2018.jpg",
+            "activity": "study",
+            "rating": "12"
+        },
+        {
+            "id": "7",
+            "name": "Yura",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Bill_Gates_2018.jpg",
+            "activity": "study",
+            "rating": "12"
+        },
+        {
+            "id": "8",
+            "name": "Yura",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Bill_Gates_2018.jpg",
+            "activity": "study",
+            "rating": "12"
+        },
+        {
+            "id": "9",
+            "name": "Yura",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Bill_Gates_2018.jpg",
+            "activity": "study",
+            "rating": "12"
+        },
+        {
+            "id": "10",
+            "name": "Yura",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Bill_Gates_2018.jpg",
+            "activity": "study",
+            "rating": "12"
+        },
+        {
+            "id": "11",
+            "name": "John",
+            "photo": "https://i.natgeofe.com/n/37c3c776-b8cb-4be1-988a-cf593c776b88/01-leonardo-da-vinci-book-talk.jpg",
+            "activity": "culture",
+            "rating": "12"
+        },
+        {
+            "id": "12",
+            "name": "John",
+            "photo": "https://i.natgeofe.com/n/37c3c776-b8cb-4be1-988a-cf593c776b88/01-leonardo-da-vinci-book-talk.jpg",
+            "activity": "culture",
+            "rating": "12"
+        },
+        {
+            "id": "13",
+            "name": "John",
+            "photo": "https://i.natgeofe.com/n/37c3c776-b8cb-4be1-988a-cf593c776b88/01-leonardo-da-vinci-book-talk.jpg",
+            "activity": "culture",
+            "rating": "12"
+        },
+        {
+            "id": "14",
+            "name": "John",
+            "photo": "https://i.natgeofe.com/n/37c3c776-b8cb-4be1-988a-cf593c776b88/01-leonardo-da-vinci-book-talk.jpg",
+            "activity": "culture",
+            "rating": "12"
+        },
+        {
+            "id": "15",
+            "name": "John",
+            "photo": "https://i.natgeofe.com/n/37c3c776-b8cb-4be1-988a-cf593c776b88/01-leonardo-da-vinci-book-talk.jpg",
+            "activity": "culture",
+            "rating": "12"
+        },
+        {
+            "id": "16",
+            "name": "Big Boss",
+            "photo": "https://cdn22.img.ria.ru/images/07e4/0b/12/1585184463_0:417:2899:2048_1920x0_80_0_0_6c0b1cf65f470825446809370706f91c.jpg",
+            "activity": "social",
+            "rating": "12"
+        },
+        {
+            "id": "17",
+            "name": "Big Boss",
+            "photo": "https://cdn22.img.ria.ru/images/07e4/0b/12/1585184463_0:417:2899:2048_1920x0_80_0_0_6c0b1cf65f470825446809370706f91c.jpg",
+            "activity": "social",
+            "rating": "12"
+        },
+        {
+            "id": "18",
+            "name": "Big Boss",
+            "photo": "https://cdn22.img.ria.ru/images/07e4/0b/12/1585184463_0:417:2899:2048_1920x0_80_0_0_6c0b1cf65f470825446809370706f91c.jpg",
+            "activity": "social",
+            "rating": "12"
+        },
+        {
+            "id": "19",
+            "name": "Big Boss",
+            "photo": "https://cdn22.img.ria.ru/images/07e4/0b/12/1585184463_0:417:2899:2048_1920x0_80_0_0_6c0b1cf65f470825446809370706f91c.jpg",
+            "activity": "social",
+            "rating": "12"
+        },
+        {
+            "id": "20",
+            "name": "Big Boss",
+            "photo": "https://cdn22.img.ria.ru/images/07e4/0b/12/1585184463_0:417:2899:2048_1920x0_80_0_0_6c0b1cf65f470825446809370706f91c.jpg",
+            "activity": "social",
+            "rating": "12"
+        },
+        {
+            "id": "21",
+            "name": "Bolt",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Bolt_se_aposenta_com_medalha_de_ouro_no_4_x_100_metros_1039118-19.08.2016_frz-9565_%28cropped%29.jpg/1200px-Bolt_se_aposenta_com_medalha_de_ouro_no_4_x_100_metros_1039118-19.08.2016_frz-9565_%28cropped%29.jpg",
+            "activity": "sport",
+            "rating": "12"
+        },
+        {
+            "id": "22",
+            "name": "Bolt",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Bolt_se_aposenta_com_medalha_de_ouro_no_4_x_100_metros_1039118-19.08.2016_frz-9565_%28cropped%29.jpg/1200px-Bolt_se_aposenta_com_medalha_de_ouro_no_4_x_100_metros_1039118-19.08.2016_frz-9565_%28cropped%29.jpg",
+            "activity": "sport",
+            "rating": "12"
+        },
+        {
+            "id": "23",
+            "name": "Bolt",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Bolt_se_aposenta_com_medalha_de_ouro_no_4_x_100_metros_1039118-19.08.2016_frz-9565_%28cropped%29.jpg/1200px-Bolt_se_aposenta_com_medalha_de_ouro_no_4_x_100_metros_1039118-19.08.2016_frz-9565_%28cropped%29.jpg",
+            "activity": "sport",
+            "rating": "12"
+        },
+        {
+            "id": "24",
+            "name": "Bolt",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Bolt_se_aposenta_com_medalha_de_ouro_no_4_x_100_metros_1039118-19.08.2016_frz-9565_%28cropped%29.jpg/1200px-Bolt_se_aposenta_com_medalha_de_ouro_no_4_x_100_metros_1039118-19.08.2016_frz-9565_%28cropped%29.jpg",
+            "activity": "sport",
+            "rating": "12"
+        },        {
+            "id": "25",
+            "name": "Bolt",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Bolt_se_aposenta_com_medalha_de_ouro_no_4_x_100_metros_1039118-19.08.2016_frz-9565_%28cropped%29.jpg/1200px-Bolt_se_aposenta_com_medalha_de_ouro_no_4_x_100_metros_1039118-19.08.2016_frz-9565_%28cropped%29.jpg",
+            "activity": "sport",
+            "rating": "12"
+        }
+    ] 
+}
