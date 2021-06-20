@@ -1,0 +1,26 @@
+.btns {
+    /* width: 100%; */
+    /* position: absolute; */
+    margin: 0 auto;
+    width: 70%;
+    padding: 10px 80px;
+    margin-top: 35px;
+    background-color:  rgba(41, 103, 173, 0.8);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.btns-fopl {
+    padding: 10px 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: solid 1px;
+    cursor: pointer;
+}
+
+/* .btns-fopl .active {
+    background-color: 
+} */

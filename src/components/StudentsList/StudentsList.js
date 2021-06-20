@@ -2,17 +2,20 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import WithOurService from '../hoc/with-our-service';
 import StudentsListItem from '../StudentsListItem'
-import { listLoaded } from '../../actions';
+import { getStudentsThunkCreator } from '../../asyncActions';
 import './StudentsList.css'
 
 
 class StudentsList extends Component {
 
+    
     componentDidMount() {
-        const {OurService} =this.props 
-        
-        OurService.getListItems()
-            .then(res => this.props.listLoaded(res))
+
+        if (this.props.listItems.length === 0) {
+
+            this.props.getStudentsThunkCreator();
+            
+        }
     }
     
     render() {
@@ -40,7 +43,7 @@ const mapStateToProps = (state) => {
 }
 
 const mapDispatchToProps = {
-    listLoaded
+    getStudentsThunkCreator
 }
 
 export default WithOurService()(connect(mapStateToProps, mapDispatchToProps)(StudentsList))

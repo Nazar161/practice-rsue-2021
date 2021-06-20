@@ -37,6 +37,19 @@ const allList = () => {
     }
 }
 
+const selectedFame = () => {
+    return {
+        type: "SELECTED_FAME"
+    }
+}
+
+
+const selectedPrLeads = () => {
+    return {
+        type: "SELECTED_PR_LEADS"
+    }
+}
+
 export {
     listLoaded,
     sportList,
@@ -44,5 +57,7 @@ export {
     studyList,
     cultureList,
     socialList,
-    allList
+    allList,
+    selectedFame,
+    selectedPrLeads
 }
