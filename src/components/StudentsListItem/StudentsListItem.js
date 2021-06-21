@@ -42,7 +42,7 @@ const useStyles = makeStyles({
   });
   
   export default function StudentsListItem({listItem}) {
-    const {name, photo, info} = listItem;
+    const {name, photo, info, rating, group} = listItem;
     const classes = useStyles();
   
     return (
@@ -56,7 +56,9 @@ const useStyles = makeStyles({
                 />
                 <CardContent style={{padding: '5px 20px'}}>
                     <Typography gutterBottom variant="h6" component="h5" style={{margin: 0}}>
-                        {name}
+                      <div style={{display: 'flex', justifyContent: 'space-between', alignItems: 'center'}}>
+                        <span>{name}</span> <span>{group}</span>
+                      </div>
                     </Typography>
                     <Typography variant="body2" color="textSecondary" component="p">
                         {info}
@@ -64,12 +66,13 @@ const useStyles = makeStyles({
                 </CardContent>
             </CardActionArea>
           {/* </Link> */}
-        <CardActions>
+        <CardActions style={{display: 'flex', justifyContent: 'space-between', alignItems: 'center'}}>
             <Link to={`/${listItem.id}`} style={{textDecoration: 'none'}}>
                 <Button size="small" color="primary">
                      Узнать больше
                 </Button>
             </Link>
+            <span>Баллы: {rating}</span>
         </CardActions>
       </Card>
     );

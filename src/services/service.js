@@ -1,7 +1,7 @@
 export default class OurService {
     
     getResource = async (url) => {
-        const res = await fetch(`http://localhost:3000${url}`);
+        const res = await fetch(`http://localhost:8000${url}`);
 
         if(!res.ok) {
             throw new Error(`Could not fetch ${url}` +

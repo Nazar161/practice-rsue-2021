@@ -11,7 +11,7 @@ const StudentPage = ({listItems}) => {
 
 
     const student = listItems.find(el => +el.id === +params.id)
-    const {name, photo, activity, moreInfo} = student
+    const {name, photo, surname, moreInfo} = student
     return (
         <div className='student-page'>
             <Link to='/'  style={{textDecoration: 'none'}}>
@@ -21,7 +21,7 @@ const StudentPage = ({listItems}) => {
             </Link>
             <div className="photo"><img className="student-img" src={photo} alt="jpg"></img></div>
             <div className='student-info'>
-                <h1>{name}</h1>
+                <h1>{name} {surname}</h1>
                 <p>{moreInfo}</p>
             </div>
         </div>

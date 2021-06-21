@@ -2,7 +2,7 @@ const initialState ={
     list: [],
     activeListName: 'all',
     activeList: [],
-    fameOrPrLeads: 'fame'
+    fameOrPrLeads: 'fame',
 }
 
 
@@ -10,12 +10,13 @@ const initialState ={
 const reducer = (state=initialState, action) => {
     switch (action.type) {
         case 'LIST_LOADED':
+            const newDatas = action.payload.map(item =>  {return {...item, rating: item.events.international + item.events.interregional + item.events.regional + item.events.urban + item.events.intrauniversity}}).sort((a, b) => a.rating > b.rating ? -1 : 1).slice(0, 25)
             return {
                 ...state,
                 activeListName: state.activeListName,
-                list: action.payload,
-                activeList: action.payload,
-                fameOrPrLeads: state.fameOrPrLeads
+                list: newDatas,
+                activeList: newDatas,
+                fameOrPrLeads: state.fameOrPrLeads,
             }
         case 'SPORT_LIST':
             const sportList = state.list.filter(list => list.sport === true);
