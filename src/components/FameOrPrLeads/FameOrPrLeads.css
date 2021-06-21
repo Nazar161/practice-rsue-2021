@@ -24,3 +24,16 @@
 /* .btns-fopl .active {
     background-color: 
 } */
+
+
+@media screen and (max-width: 480px) {
+    .btns {
+        flex-direction: column;
+        width: 85%;
+        padding: 5px 50px;
+    }
+
+    .btns-fopl:first-child {
+        margin-bottom: 5px;
+    }
+}

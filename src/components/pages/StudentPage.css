@@ -37,3 +37,52 @@ img {
     margin-top: 0;
 }
 
+.back-btn {
+    padding: 0.35em 1.2em;
+    border: 0.1em solid #FFFFFF;
+    margin: 0 0.3em 0.3em 0;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    color:#FFFFFF;
+    text-align:center;
+    transition: all 0.2s;
+    height: 35px;
+}
+
+.back-btn:hover {
+    color:#000000;
+    background-color:#FFFFFF;
+}
+@media screen and (max-width: 480px) {
+    .student-page {
+        height: 100%;
+        width: 100%;
+        padding: 5px;
+        display: -webkit-flex;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .photo {
+        width: 250px;
+        min-height: 300px;
+        align-self: center;
+        margin-left: 0;
+    }
+
+    .student-info {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .back-btn {
+        height: 100%;
+        margin-bottom: 15px;
+        margin-top: 10px;
+    }
+}
+

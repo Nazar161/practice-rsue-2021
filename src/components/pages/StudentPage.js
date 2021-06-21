@@ -14,11 +14,10 @@ const StudentPage = ({listItems}) => {
     const {name, photo, surname, moreInfo} = student
     return (
         <div className='student-page'>
-            <Link to='/'  style={{textDecoration: 'none'}}>
-                <Button size="large" color="secondary" variant="contained">
+            <Link to='/' className='back-btn'>
                     Назад
-                </Button>
             </Link>
+            {/* <a href='/' className='personal-area-btn'>Назад</a> */}
             <div className="photo"><img className="student-img" src={photo} alt="jpg"></img></div>
             <div className='student-info'>
                 <h1>{name} {surname}</h1>
