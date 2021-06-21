@@ -1,7 +1,7 @@
 export default class OurService {
     
     getResource = async (url) => {
-        const res = await fetch(`http://localhost:8000${url}`);
+        const res = await fetch(`https://practice-rsue-2021.herokuapp.com/api/${url}`);
 
         if(!res.ok) {
             throw new Error(`Could not fetch ${url}` +
